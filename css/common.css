@@ -115,7 +115,7 @@ header
 
 .header-logos-nav ul li a:hover,
 .header-logos-nav ul li a.current {
-	background:url(../img/bg_stripe.svg);
+	/*background:url(../img/bg_stripe.svg);*/
 }
 
 .header-logos-nav-list-inner {
