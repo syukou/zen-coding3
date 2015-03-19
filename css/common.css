@@ -145,6 +145,69 @@ header
 
 /*
 ///////////////////////////////////////
+underSidebar
+///////////////////////////////////////
+*/
+
+.main-side-category-head {
+	padding:15px;
+	color:#ffffff;
+	background-color:#85A063;
+	font-size:16px;
+	font-size:1.6rem;
+	font-weight:bold;
+}
+
+.sideList__head {
+	padding:15px 15px 15px 0;
+	border-top:3px solid #85A063;
+	border-bottom:3px solid #85A063;
+	color:#ffffff;
+	font-size:16px;
+	font-size:1.6rem;
+	font-weight:bold;
+}
+
+.sideList__body li {
+	border-bottom:1px dashed #B3B3B3;
+}
+
+.sideList__body li a {
+	position:relative;
+	display:block;
+	padding:17px 20px 17px 20px;
+	font-size:15px;
+	font-size:1.5rem;
+	-webkit-transition:background-color 0.3s;
+	-ms-transition:background-color 0.3s;
+	-moz-transition:background-color 0.3s;
+	transition:background-color 0.3s;
+	font-family:'Raleway';
+}
+
+.sideList__body li a:after {
+	content:"";
+	position:absolute;
+	right:20px;
+	top:25px;
+	width:8px;
+	height:8px;
+	margin-top:-5px;
+	border-top:1px solid #888888;
+	border-right:1px solid #888888;
+	-webkit-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	transform:rotate(45deg);
+}
+
+.sideList__body li a:hover {
+	background-color:#d8d8d8;
+}
+
+
+/*
+///////////////////////////////////////
 kv
 ///////////////////////////////////////
 */
