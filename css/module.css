@@ -97,19 +97,19 @@
 ///////////////////////////////////////
 */
 .postSocial {
-	position:absolute;
-	top:0;
-	right:0;
-	bottom:0;
-	left:0;
-	width:200px;
-	height:40px;
-	margin:auto;
-	z-index:10;
-	opacity:0;
-	color:#fff;
-	-webkit-transition:opacity 0.35s;
-	transition:opacity 0.35s;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 205px;
+	height: 25px;
+	margin: auto;
+	z-index: 10;
+	opacity: 0;
+	color: #fff;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
 }
 
 .postSocial__list {
@@ -158,7 +158,7 @@ more
 ///////////////////////////////////////
 */
 .postlist-more {
-	width:50%;
+	width:70%;
 	margin:20px auto 0;
 }
 

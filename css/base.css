@@ -20,6 +20,7 @@ html {
 }
 
 body {
+	min-width: 1200px;
 	color: #474747;
 	font-size: 12px;
 	font-size: 1.2rem;
