@@ -196,7 +196,7 @@
                     <a href="#">
                         <div class="postlist__info">
                             <span class="postlist__info--mask"></span>
-                            <p class="postlist__thum"><img src="http://dummyimage.com/340x26s0/a6a6a6/fff" alt=""/></p>
+                            <p class="postlist__thum"><img src="http://dummyimage.com/340x26s0/a6a6a6ß/fff" alt=""/></p>
                             <ul class="postSocial">
                                 <li class="postSocial__list">
                                     <span class="postSocial__list-facebook"></span>
