@@ -21,12 +21,25 @@
 }
 
 .postlist a:hover .postlist__head,
-.postlist a:hover .postlist__desc {
-	color:#0096b4;
+.postlist a:hover .postlist__desc,
+.postlist a:hover .postlist__class-date {
+	color: #11c6cb;
 }
 
 .postlist a:hover .postlist__info--mask {
 	opacity:1;
+}
+
+.postlist a:hover .postlist__class-cat {
+	background-color: #ff0000;
+}
+
+.postlist a:hover .postSocial__list-facebook,
+.postlist a:hover .postSocial__list-twitter,
+.postlist a:hover .postSocial__list-hatena {
+	opacity:1;
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
 }
 
 .postlist__info {
@@ -81,6 +94,8 @@
 	color:#515151;
 	line-height:22px;
 	vertical-align:bottom;
+	-webkit-transition:color 0.35s;
+	transition:color 0.35s;
 }
 
 .postlist__class-cat {
@@ -89,6 +104,8 @@
 	color: #ffffff;
 	font-weight:bold;
 	background-color: #000000;
+	-webkit-transition:background-color 0.35s;
+	transition:background-color 0.35s;
 }
 
 /*
@@ -130,6 +147,11 @@
 	width:25px;
 	height:25px;
 	padding-right:5px;
+	-webkit-transform: rotateY(-215deg);
+	transform: rotateY(-215deg);
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.35s ease 0.05s,opacity 0.35s ease 0.05s;
+	transition: transform 0.35s ease 0.05s,opacity 0.35s ease 0.05s;
 }
 
 .postSocial__list-facebook {

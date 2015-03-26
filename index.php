@@ -73,7 +73,7 @@
 
 
                 <?php
-                    query_posts('showposts=24');
+                    query_posts('showposts=6');
                     if (have_posts()) :
                     while (have_posts()) :
                     the_post();
@@ -85,7 +85,7 @@
                         $thumbnail_id = get_post_thumbnail_id();
 
                     // mediumサイズの画像内容を取得（引数にmediumをセット）
-                        $eye_img = wp_get_attachment_image_src( $thumbnail_id , 'full' );
+                        $eye_img = wp_get_attachment_image_src( $thumbnail_id , 'medium' );
 
                     // 取得した画像URLにてイメージタグを出力
                     // 更にdata-aliasというHTML5のカスタムデータ属性を追加
