@@ -6,12 +6,18 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/base.css"/>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css"/>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/module.css"/>
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.top.css"/>
+
+	<?php if(is_front_page()): ?>
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.top.css"/>
+	<?php elseif(is_category()): ?>
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.archive.css"/>
+	<?php endif; ?>
+<?php wp_head(); ?>
 </head>
 <body>
 <div class="cm-container">
 
-	<?php if (is_home()) { ?>
+	<?php if(is_front_page()): ?>
 		<header class="header">
 			<div class="header-inner">
 				<nav class="header-gnav">
@@ -23,7 +29,7 @@
 				</nav>
 			</div>
 		</header>
-	<?php } else { ?>
+	<?php else: ?>
 		<header class="header">
 			<div class="header-logos">
 				<div class="cm-inner header-logos-inner cf">
@@ -75,4 +81,4 @@
 				</div>
 			</div>
 		</header>
-	<?php } ?>
+	<?php endif; ?>

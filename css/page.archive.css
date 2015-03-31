@@ -12,11 +12,22 @@
 }
 
 .post-left {
-	margin: 0 -10px;
+	margin: 0 -15px;
 }
 
 .postlist {
 	float: left;
-	width: 275px;
-	padding: 0 10px 40px;
+	width: 265px;
+	padding: 0 15px 40px;
+}
+
+.postlist__head {
+	margin-bottom:15px;
+	color:#111111;
+	font-size:14px;
+	font-size:1.4rem;
+	text-align:center;
+	line-height:1.4;
+	-webkit-transition:color 0.35s;
+	transition:color 0.35s;
 }
