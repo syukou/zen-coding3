@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer id="footer" class="footer">
     <div class="footer-inner">
 
     </div>
@@ -17,6 +17,7 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/common.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/top.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/footerFixed.js"></script>
 
 <?php wp_footer(); ?>
 </body>

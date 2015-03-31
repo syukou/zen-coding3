@@ -11,7 +11,10 @@
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.top.css"/>
 	<?php elseif(is_category()): ?>
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.archive.css"/>
+	<?php elseif(is_page()): ?>
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.archive.css"/>
 	<?php endif; ?>
+
 <?php wp_head(); ?>
 </head>
 <body>

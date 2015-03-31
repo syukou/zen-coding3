@@ -1,9 +1,3 @@
-<?php
-/*
-Template Name: カテゴリー一覧
-*/
-?>
-
 <?php get_header(); ?>
 
 
@@ -21,11 +15,11 @@ Template Name: カテゴリー一覧
 
 
 
+
+
+
 									<?php
-
-									$paged = get_query_var('paged');
-									query_posts("posts_per_page=9&paged=$paged");
-
+									query_posts('category_name=web' );
 									if (have_posts()) :
 										while (have_posts()) :
 											the_post();
@@ -92,9 +86,40 @@ Template Name: カテゴリー一覧
 
 
 
-
-
-
+<!---->
+<!---->
+<!--									<article class="postlist masonry-brick">-->
+<!--										<a href="#">-->
+<!--											<div class="postlist__info">-->
+<!--												<span class="postlist__info--mask"></span>-->
+<!--												<p class="postlist__thum"><img src="http://dummyimage.com/275x275/a6a6a6/fff" alt=""/></p>-->
+<!--												<ul class="postSocial">-->
+<!--													<li class="postSocial__list">-->
+<!--														<span class="postSocial__list-facebook"></span>-->
+<!--														<span class="postSocial__list-number">100</span>-->
+<!--													</li>-->
+<!--													<li class="postSocial__list">-->
+<!--														<span class="postSocial__list-twitter"></span>-->
+<!--														<span class="postSocial__list-number">999</span>-->
+<!--													</li>-->
+<!--													<li class="postSocial__list">-->
+<!--														<span class="postSocial__list-hatena"></span>-->
+<!--														<span class="postSocial__list-number">255</span>-->
+<!--													</li>-->
+<!--												</ul>-->
+<!--											</div>-->
+<!--											<div class="postlist__body">-->
+<!--												<h3 class="postlist__head">ランチェスターの<br>WEBアプリケーション開発環境</h3>-->
+<!--												<p class="postlist__desc">-->
+<!--													元々はRubyのチュートリアルを数名が集まって学ぶ時間として始まり、現在は、業務から少し離れた課題に取り組む「もくもく」の時間になっています。-->
+<!--												</p>-->
+<!--												<div class="postlist__class cf">-->
+<!--													<p class="postlist__class-date">2015/03/03</p>-->
+<!--													<p class="postlist__class-cat">javascript</p>-->
+<!--												</div>-->
+<!--											</div>-->
+<!--										</a>-->
+<!--									</article>-->
 
 
 
