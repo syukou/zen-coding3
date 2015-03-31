@@ -19,7 +19,7 @@
 
 
 									<?php
-									query_posts('category_name=javascript' );
+									query_posts('category_name=wordpress' );
 									if (have_posts()) :
 										while (have_posts()) :
 											the_post();
