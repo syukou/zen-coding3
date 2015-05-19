@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .cm-inner {
-	width: 1200px;
+	width: 1024px;
 	margin: 0 auto;
 }
 
@@ -18,7 +18,6 @@
 
 .cm-postblock-head {
 	font-size: 16px;
-	font-size: 1.6rem;
 	text-align: center;
 }
 
@@ -133,14 +132,12 @@ header
 
 .header-logos-nav-list-head {
 	font-size: 13px;
-	font-size: 1.3rem;
 	font-weight: bold;
 }
 
 .header-logos-nav-list-ruby {
 	margin-top: 10px;
 	font-size: 10px;
-	font-size: 1rem;
 }
 
 /*
@@ -154,7 +151,6 @@ underSidebar
 	color:#ffffff;
 	background-color:#85A063;
 	font-size:16px;
-	font-size:1.6rem;
 	font-weight:bold;
 }
 
@@ -164,7 +160,6 @@ underSidebar
 	border-bottom:3px solid #85A063;
 	color:#ffffff;
 	font-size:16px;
-	font-size:1.6rem;
 	font-weight:bold;
 }
 
@@ -177,7 +172,6 @@ underSidebar
 	display:block;
 	padding:17px 20px 17px 20px;
 	font-size:15px;
-	font-size:1.5rem;
 	-webkit-transition:background-color 0.3s;
 	-ms-transition:background-color 0.3s;
 	-moz-transition:background-color 0.3s;
