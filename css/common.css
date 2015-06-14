@@ -48,25 +48,26 @@ header
 }
 
 .header-logos {
-	border-bottom: 1px solid #bbbbbb;
+	background: url(../img/dotted_line.png) repeat-x left bottom;
+	background-size: 45px 1px;
 }
 
 .header-logos-inner {
 	position: relative;
-	height: 210px;
+	height: 185px;
 }
 
 .header-logos-img {
 	position: absolute;
-	left: 20px;
-	top: 40px;
+	left: 10px;
+	top: 30px;
 }
 
 .header-logos-img a {
 	display: block;
 	float: left;
-	width: 350px;
-	height: 126px;
+	width: 320px;
+	height: 115px;
 }
 
 .header-logos-nav {
@@ -74,18 +75,16 @@ header
 }
 
 .header-logos-nav ul {
-	border-left: 1px solid #bbbbbb;
-	border-right: 1px solid #bbbbbb;
+	background: url(../img/dotted_line_tate.png) repeat-y right top;
+	background-size: 1px 45px;
 }
 
 .header-logos-nav ul li {
 	float: left;
 	width: 150px;
-	height: 210px;
-}
-
-.header-logos-nav ul li + li {
-	border-left: 1px solid #bbbbbb;
+	height: 185px;
+	background: url(../img/dotted_line_tate.png) repeat-y left top;
+	background-size: 1px 45px;
 }
 
 .header-logos-nav ul li a,
@@ -93,19 +92,19 @@ header
 	position: relative;
 	display: block;
 	width: 150px;
-	height: 210px;
+	height: 185px;
 }
 
 .header-logos-nav ul li a:after,
 .header-logos-nav ul li span:after {
 	content: "";
 	position: absolute;
-	left: 59px;
-	bottom: 50px;
-	width: 30px;
-	height: 30px;
+	left: 61px;
+	bottom: 40px;
+	width: 25px;
+	height: 25px;
 	background: url(../img/icon/icon_gnav.svg) no-repeat;
-	background-size: 30px 30px;
+	background-size: 25px 25px;
 }
 
 .header-logos-nav ul li span {
@@ -150,7 +149,7 @@ underSidebar
 	padding:15px;
 	color:#ffffff;
 	background-color:#85A063;
-	font-size:16px;
+	font-size:14px;
 	font-weight:bold;
 }
 
@@ -171,11 +170,11 @@ underSidebar
 	position:relative;
 	display:block;
 	padding:17px 20px 17px 20px;
-	font-size:15px;
-	-webkit-transition:background-color 0.3s;
-	-ms-transition:background-color 0.3s;
-	-moz-transition:background-color 0.3s;
-	transition:background-color 0.3s;
+	font-size:13px;
+	-webkit-transition: all 0.35s ease;
+	-ms-transition: all 0.35s ease;
+	-moz-transition: all 0.35s ease;
+	transition: all 0.35s ease;
 	font-family:'Raleway';
 }
 
@@ -316,7 +315,7 @@ footer
 .footer {
 	width: 100%;
 	height: 100px;
-	background-color: #000000;
+	background: url(../img/bg_foot.png) left top;
 }
 
 .footer-inner {
