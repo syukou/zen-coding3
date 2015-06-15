@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php get_header(); ?>
 	<div class="kv">
 		<div class="kv-outer" id="jsi-carousel-wrapper">
@@ -247,3 +248,6 @@
 		</div>
 	</main>
 <?php get_footer(); ?>
+=======
+<?php echo  "index";
+>>>>>>> 3bf1b49f7481e234f8c0d03e66af2e4d91abb0e5
