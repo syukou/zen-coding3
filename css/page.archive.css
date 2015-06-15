@@ -12,23 +12,15 @@
 }
 
 .post-left {
-<<<<<<< HEAD
 	margin: 0 -10px;
 	overflow: hidden;
-=======
-	margin: 0 -15px;
->>>>>>> 3bf1b49f7481e234f8c0d03e66af2e4d91abb0e5
 }
 
 .postlist {
 	float: left;
-<<<<<<< HEAD
 	width: 251px;
 	padding: 0 10px 40px;
 	box-sizing: border-box;
-=======
-	width: 265px;
-	padding: 0 15px 40px;
 }
 
 .postlist__head {
@@ -40,5 +32,4 @@
 	line-height:1.4;
 	-webkit-transition:color 0.35s;
 	transition:color 0.35s;
->>>>>>> 3bf1b49f7481e234f8c0d03e66af2e4d91abb0e5
 }
