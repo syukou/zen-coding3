@@ -24,7 +24,7 @@
 .postlist a:hover .postlist__head,
 .postlist a:hover .postlist__desc,
 .postlist a:hover .postlist__class-date {
-	color: #11c6cb;
+	color: #3791cb;
 }
 
 .postlist a:hover .postlist__info--mask {
@@ -93,18 +93,11 @@
 .postlist__desc {
 	margin-bottom:20px;
 	font-size:11px;
-<<<<<<< HEAD
 	line-height:1.9;
 	-webkit-transition: all 0.35s ease;
 	-ms-transition: all 0.35s ease;
 	-moz-transition: all 0.35s ease;
 	transition: all 0.35s ease;
-=======
-	font-size:1.1rem;
-	line-height:1.8;
-	-webkit-transition:color 0.35s;
-	transition:color 0.35s;
->>>>>>> 3bf1b49f7481e234f8c0d03e66af2e4d91abb0e5
 }
 
 .postlist__class-date {
