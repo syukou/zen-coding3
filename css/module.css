@@ -265,23 +265,27 @@ more
 }
 
 .postlist-more-list li a {
-	position:relative;
-	display:block;
-	width:40px;
-	height:40px;
-	border:1px solid #666666;
-	border-radius:5px;
-	font-size:17px;
-	box-sizing:border-box;
-	box-shadow:0 1px 4px #b6b6b6;
+	position: relative;
+	display: block;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #525252;
+	border-radius: 5px;
+	color: #525252;
+	font-size: 17px;
+	box-sizing: border-box;
+	box-shadow: 0 1px 3px #979797;
 	-webkit-transition: all 0.35s ease;
 	-ms-transition: all 0.35s ease;
 	-moz-transition: all 0.35s ease;
 	transition: all 0.35s ease;
+	-webkit-font-smoothing: antialiased;
 }
 
 .postlist-more-list li a:hover {
 	background-color:#FF8C00;
+	border: 1px solid #FF8C00;
+	color: #ffffff;
 }
 
 .postlist-more-list li a span {
