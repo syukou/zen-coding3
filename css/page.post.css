@@ -25,7 +25,8 @@
 .post-detail {
 	margin: 14px 0 25px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid #cdcdcd;
+	background: url(../img/dotted_line.png) repeat-x left bottom;
+	background-size: 45px 1px;
 }
 
 .post-detail-date {
@@ -87,7 +88,7 @@
 .post-body h2 span {
 	display: inline-block;
 	padding: .2em 1em;
-	background-color: #fff;
+	background: url(../img/bg_body.png);
 }
 
 .post-body h3 {
@@ -232,7 +233,7 @@
 }
 
 .blog-lists {
-	margin:0 -15px;
+	margin: 0 -15px;
 }
 
 .blog-list {
