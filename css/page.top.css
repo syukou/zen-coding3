@@ -1,129 +1,21 @@
 @charset "UTF-8";
 
-/*.header {*/
-/*width: 100%;*/
-/*height: 400px;*/
-/*margin: 0 0 30px;*/
-/*background-color: #000000;*/
-/*}*/
-
-/*.header-inner {*/
-/*width: 1200px;*/
-/*margin: 0 auto;*/
-/*background-color: #000000;*/
-/*}*/
-
-/*.pg-kv-inner {*/
-/*position: relative;*/
-/*display: table;*/
-/*width: 1200px;*/
-/*margin: 0 auto;*/
-/*}*/
-
 .main {
-	margin: 170px auto 100px;
+	margin: 170px auto 40px;
 }
 
 /*
 ///////////////////////////////////////
- Midnight KV
+Main Post
 ///////////////////////////////////////
 */
 
-
-.pg-kv {
-	position: relative;
-	display: table;
-	width: 100%;
-	background-size: 100% 100%;
-	margin: -60px auto 0;
-	z-index: 10;
-	padding-top: 60px;
+.top-main {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
 }
 
-.pg-kv-inner1 {
-	position: absolute;
-	top: 63px;
-	width: 100%;
-	height: 247px;
-	margin: 0 auto;
-	z-index: 1;
-	/*left: 50%;
-	margin-left: -600px;*/
-	overflow: hidden;
-}
-
-.pg-kv-img {
-	position: relative;
-	/*display: table;*/
-	width: 100%;
-	height: 250px;
-	overflow: hidden;
-}
-
-.pg-kv-img img {
-	width: 100%;
-	height: auto;
-}
-
-.pg-kv-inner {
-	position: relative;
-	display: table;
-	width: 1200px;
-	margin: 0px auto;
-}
-
-.pg-kv-img-body {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	display: inline-block;
-	width: 100%;
-	height: 100%;
-	text-indent: -9999px;
-	background-color: #000;
-}
-
-.title-recruit {
-	width: 315px;
-	height: 247px;
-	margin: 0 auto;
-	text-indent: -9999px;
-	background: url(../img/sprite/logo_sprite2.png) no-repeat;
-	background-position: left top;
-}
-
-.ua + .pg-top-wrap .pg-kv-img-body {
-	background-position: 0 301px;
-}
-
-.title-recruit-black {
-	width: 315px;
-	height: 247px;
-	margin: 0 auto;
-	text-indent: -9999px;
-	background: url(../img/sprite/logo_sprite2.png) no-repeat;
-	background-position: left bottom;
-}
-
-.category-name-wrap {
-	position: absolute;
-	width: 100%;
-	color: #FFF;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 1.7;
-	top: 75px;
-	overflow: hidden;
-	left: 0;
-}
-
-.title-company-black-wrap {
-	position: absolute;
-	width: 1200px;
-	color: #FFF;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 1.7;
-	top: -177px;
+.postlist-more {
+	width: 40%;
+	margin: 0 auto 80px;
 }

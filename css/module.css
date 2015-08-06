@@ -6,38 +6,77 @@
 ///////////////////////////////////////
 */
 
+.cm-postblock-inner {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
 .postlist {
-	float:left;
-	width:311px;
-	padding:0 15px 40px;
+	float: left;
+	width: 277px;
+	padding: 25px 15px 35px;
+	border: 1px solid #ddd;
 	box-sizing: border-box;
+	-webkit-transition: all 0.35s ease;
+	-ms-transition: all 0.35s ease;
+	-moz-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+}
+
+.postlist + .postlist {
+	border-left: none;
+}
+
+.postlist:nth-child(1),
+.postlist:nth-child(5) {
+	border-left: none;
+}
+
+.postlist:nth-child(1),
+.postlist:nth-child(2),
+.postlist:nth-child(3),
+.postlist:nth-child(4) {
+	border-top: none;
+}
+
+.postlist:nth-child(4),
+.postlist:nth-child(8) {
+	border-right: none;
+}
+
+.postlist:nth-child(5),
+.postlist:nth-child(6),
+.postlist:nth-child(7),
+.postlist:nth-child(8) {
+	border-top: none;
+	border-bottom: none;
 }
 
 .postlist a {
 	display:block;
 }
 
-.postlist a:hover .postSocial {
+.postlist:hover .postSocial {
 	opacity:1;
 }
 
-.postlist a:hover .postlist__head,
-.postlist a:hover .postlist__desc,
-.postlist a:hover .postlist__class-date {
+.postlist:hover .postlist__head,
+.postlist:hover .postlist__desc,
+.postlist:hover .postlist__class-date {
 	color: #3791cb;
 }
 
-.postlist a:hover .postlist__info--mask {
+.postlist:hover .postlist__info--mask {
 	opacity:1;
 }
 
-.postlist a:hover .postlist__class-cat {
+.postlist:hover .postlist__class-cat {
 	background-color: #ff0000;
 }
 
-.postlist a:hover .postSocial__list-facebook,
-.postlist a:hover .postSocial__list-twitter,
-.postlist a:hover .postSocial__list-hatena {
+.postlist:hover .postSocial__list-facebook,
+.postlist:hover .postSocial__list-twitter,
+.postlist:hover .postSocial__list-hatena {
 	opacity:1;
 	-webkit-transform: rotateY(0deg);
 	transform: rotateY(0deg);
@@ -82,12 +121,6 @@
 .postlist__thum img {
 	width: 100%;
 	height: auto;
-}
-
-.postlist__body {
-	padding-bottom:20px;
-	background:url(../img/dotted_line_under.png) repeat-x left bottom;
-	background-size: 21px 2px;
 }
 
 .postlist__desc {
