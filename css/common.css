@@ -5,6 +5,11 @@
 	margin: 0 auto;
 }
 
+.contents-inner {
+	width: 1080px;
+	margin: 0 auto;
+}
+
 .main {
 	margin: 100px auto;
 }
