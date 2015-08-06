@@ -56,6 +56,10 @@
 	display:block;
 }
 
+.postlist:hover {
+	background-color: #fdfdfd;
+}
+
 .postlist:hover .postSocial {
 	opacity:1;
 }
