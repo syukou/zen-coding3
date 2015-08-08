@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .cm-inner {
-	width: 1024px;
+	width: 1100px;
 	margin: 0 auto;
 }
 
@@ -17,6 +17,11 @@
 .cm-postblock-inner {
 	margin: 0 -15px 0 -15px;
 	overflow: hidden;
+}
+
+.cm-cell {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 /*

@@ -30,7 +30,7 @@ body {
 	font-size: 1.2rem;
 	line-height: 1;
 	font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', sans-serif;
-	background: url(../img/bg_beige.png);
+	/*background: url(../img/bg_body.png);*/
 }
 
 article, aside, dialog, figure, footer, header, hgroup, nav, section {
