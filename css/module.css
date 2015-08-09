@@ -2,7 +2,41 @@
 
 /*
 ///////////////////////////////////////
- PostList
+Section
+///////////////////////////////////////
+*/
+.section__head {
+	text-align: center;
+}
+
+.section__desc:after {
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-top: 10px solid #f00;
+	text-align: center;
+}
+
+.section__title {
+	font-size: 20px;
+	padding: 40px 0 0 0;
+	font-family: "Arapey",serif;
+	font-style: italic;
+}
+
+.section__desc {
+	position: relative;
+	padding: 0 0 40px 0;
+	line-height: 1.7;
+}
+
+.section__title + .section__desc {
+	margin-top: 10px;
+}
+
+/*
+///////////////////////////////////////
+PostList
 ///////////////////////////////////////
 */
 
@@ -13,7 +47,7 @@
 
 .postlist {
 	float: left;
-	width: 277px;
+	width: 263px;
 	padding: 25px 15px 35px;
 	border: 1px solid #ddd;
 	box-sizing: border-box;

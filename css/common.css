@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.cm-wrapper {
+	position: relative;
+}
+
 .cm-inner {
 	width: 1100px;
 	margin: 0 auto;
@@ -7,6 +11,11 @@
 
 .contents-inner {
 	width: 1080px;
+	margin: 0 auto;
+}
+
+.posts-inner {
+	width: 1024px;
 	margin: 0 auto;
 }
 
@@ -29,100 +38,41 @@
 header
 ///////////////////////////////////////
 */
-.header {
+
+.undervisual {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 3;
+}
+
+.undervisual .undervisual-inner {
 	position: relative;
+	width: 100%;
+	min-width: 1280px;
+	margin: 0 auto;
 }
 
-.header-logos {
-	background: url(../img/dotted_line.png) repeat-x left bottom;
-	background-size: 45px 1px;
+.undervisual .undervisual__carousel li {
+	display: table;
+	width: 100%;
+	text-indent: -9999px;
 }
 
-.header-logos-inner {
+.undervisual .undervisual__carousel .faq {
+	height: 440px;
+	background: url(../img/kv/kv_top_01.jpg) no-repeat scroll 0% 0% transparent;
+	background-position: bottom;
+	background-size: 100%;
+}
+
+.cm-container {
 	position: relative;
-	height: 185px;
-}
-
-.header-logos-img {
-	position: absolute;
-	left: 10px;
-	top: 30px;
-}
-
-.header-logos-img a {
-	display: block;
-	float: left;
-	width: 320px;
-	height: 115px;
-}
-
-.header-logos-nav {
-	float: right;
-}
-
-.header-logos-nav ul {
-	background: url(../img/dotted_line_tate.png) repeat-y right top;
-	background-size: 1px 45px;
-}
-
-.header-logos-nav ul li {
-	float: left;
-	width: 150px;
-	height: 185px;
-	background: url(../img/dotted_line_tate.png) repeat-y left top;
-	background-size: 1px 45px;
-}
-
-.header-logos-nav ul li a,
-.header-logos-nav ul li span {
-	position: relative;
-	display: block;
-	width: 150px;
-	height: 185px;
-}
-
-.header-logos-nav ul li a:after,
-.header-logos-nav ul li span:after {
-	content: "";
-	position: absolute;
-	left: 61px;
-	bottom: 40px;
-	width: 25px;
-	height: 25px;
-	background: url(../img/icon/icon_gnav.svg) no-repeat;
-	background-size: 25px 25px;
-}
-
-.header-logos-nav ul li span {
-	color: #ededed;
-}
-
-.header-logos-nav ul li a:hover,
-.header-logos-nav ul li a.current {
-	/*background:url(../img/bg_stripe.svg);*/
-}
-
-.header-logos-nav-list-inner {
-	position: absolute;
-	top: -30px;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	width: 150px;
-	height: 31px;
-	margin: auto;
-	text-align: center;
-	font-family: 'Raleway';
-}
-
-.header-logos-nav-list-head {
-	font-size: 13px;
-	font-weight: bold;
-}
-
-.header-logos-nav-list-ruby {
-	margin-top: 10px;
-	font-size: 10px;
+	z-index: 5;
+	top: 0px;
+	margin-top: 440px;
+	background-color: #ffffff;
 }
 
 /*
