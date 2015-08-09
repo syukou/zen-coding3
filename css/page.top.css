@@ -19,15 +19,16 @@ Header
 .top-header__belt {
 	width: 100%;
 	height: 50px;
-	background-color: #151515;
+	/*background-color: #151515;*/
+	background-color: #8daa63;
 }
 .top-header__logo {
 	display: table-cell;
-	width: 210px;
-	height: 178px;
+	width: 280px;
+	height: 216px;
 	text-indent: -9999px;
-	background: url(../img/logo/logo_sunmoon.svg) no-repeat;
-	background-size: 210px 178px;
+	background: url(../img/logo/logo_zen_moon.svg) no-repeat;
+	background-size: 280px 216px;
 }
 .top-header__title {
 	display: table-cell;
