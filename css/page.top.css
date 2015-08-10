@@ -16,13 +16,25 @@ Header
 Pickup
 ///////////////////////////////////////
 */
-.pickup__lists li {
-	float: left;
-	width: 346px;
+.pickup__wrap {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
 }
 
-.pickup__lists li + li {
-	margin-left: 30px;
+.pickup__lists {
+	border-right: 1px solid #ddd;
+}
+
+.pickup__lists li {
+	float: left;
+	width: 33.333%;
+	border-left: 1px solid #ddd;
+	box-sizing: border-box;
+}
+
+.pickup__lists li a {
+	display: block;
+	padding: 30px 15px;
 }
 
 .pickup__lists li img {
@@ -42,6 +54,6 @@ Main Post
 }
 
 .postlist-more {
-	width: 40%;
+	width: 30%;
 	margin: 0 auto 80px;
 }

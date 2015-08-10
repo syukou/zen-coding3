@@ -61,7 +61,7 @@ header
 }
 
 .undervisual .undervisual__carousel .faq {
-	height: 440px;
+	height: 400px;
 	background: url(../img/kv/kv_top_01.jpg) no-repeat scroll 0% 0% transparent;
 	background-position: bottom;
 	background-size: 100%;
@@ -71,7 +71,7 @@ header
 	position: relative;
 	z-index: 5;
 	top: 0px;
-	margin-top: 440px;
+	margin-top: 400px;
 	background-color: #ffffff;
 }
 
