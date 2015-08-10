@@ -37,155 +37,6 @@ Section
 
 /*
 ///////////////////////////////////////
-PostList
-///////////////////////////////////////
-*/
-
-.cm-postblock-inner {
-	border-left: 1px solid #ddd;
-	border-right: 1px solid #ddd;
-}
-
-.postlist {
-	float: left;
-	width: 263px;
-	padding: 25px 15px 25px;
-	border: 1px solid #ddd;
-	box-sizing: border-box;
-	-webkit-transition: all 0.35s ease;
-	-ms-transition: all 0.35s ease;
-	-moz-transition: all 0.35s ease;
-	transition: all 0.35s ease;
-}
-
-.postlist + .postlist {
-	border-left: none;
-}
-
-.postlist:nth-child(1),
-.postlist:nth-child(5) {
-	border-left: none;
-}
-
-.postlist:nth-child(1),
-.postlist:nth-child(2),
-.postlist:nth-child(3),
-.postlist:nth-child(4) {
-	border-top: none;
-}
-
-.postlist:nth-child(4),
-.postlist:nth-child(8) {
-	border-right: none;
-}
-
-.postlist:nth-child(5),
-.postlist:nth-child(6),
-.postlist:nth-child(7),
-.postlist:nth-child(8) {
-	border-top: none;
-	border-bottom: none;
-}
-
-.postlist a {
-	display: block;
-}
-
-.postlist:hover {
-	background-color: #fdfdfd;
-}
-
-.postlist:hover .postSocial {
-	opacity: 1;
-}
-
-.postlist:hover .postlist__head,
-.postlist:hover .postlist__desc,
-.postlist:hover .postlist__class-date {
-	color: #3791cb;
-}
-
-.postlist:hover .postlist__info--mask {
-	opacity: 1;
-}
-
-.postlist:hover .postSocial__list-facebook,
-.postlist:hover .postSocial__list-twitter,
-.postlist:hover .postSocial__list-hatena {
-	opacity: 1;
-	-webkit-transform: rotateY(0deg);
-	transform: rotateY(0deg);
-}
-
-.postlist__info {
-	position: relative;
-	margin-bottom: 20px;
-}
-
-.postlist__info--mask {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 2;
-	background: rgba(0, 0, 0, .7);
-	opacity: 0;
-	-webkit-transition: all 0.35s ease;
-	-ms-transition: all 0.35s ease;
-	-moz-transition: all 0.35s ease;
-	transition: all 0.35s ease;
-}
-
-.postlist__head {
-	margin-bottom: 15px;
-	color: #111111;
-	font-size: 15px;
-	text-align: center;
-	line-height: 1.4;
-	-webkit-transition: all 0.35s ease;
-	-ms-transition: all 0.35s ease;
-	-moz-transition: all 0.35s ease;
-	transition: all 0.35s ease;
-}
-
-.postlist__thum {
-	margin-bottom: 18px;
-}
-
-.postlist__thum img {
-	width: 100%;
-	height: auto;
-}
-
-.postlist__desc {
-	margin-bottom: 25px;
-	font-size: 11px;
-	line-height: 1.9;
-	-webkit-transition: all 0.35s ease;
-	-ms-transition: all 0.35s ease;
-	-moz-transition: all 0.35s ease;
-	transition: all 0.35s ease;
-}
-
-.postlist__class-date {
-	float: right;
-	color: #515151;
-	line-height: 22px;
-	vertical-align: bottom;
-	-webkit-transition: color 0.35s;
-	transition: color 0.35s;
-}
-
-.postlist__class-cat {
-	float: left;
-	padding: 5px 8px;
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
-}
-
-/*
-///////////////////////////////////////
  postSocialList
 ///////////////////////////////////////
 */
@@ -275,9 +126,10 @@ PostList
 more
 ///////////////////////////////////////
 */
+
 .postlist-more {
-	width: 70%;
-	margin: 20px auto 0;
+	width: 30%;
+	margin: 0 auto 80px;
 }
 
 .postlist-more-btn a {
