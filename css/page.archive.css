@@ -18,7 +18,7 @@ Side and Main
 .side {
 	float: left;
 	width: 259px;
-	height: 778px;
+	height: 773px;
 	padding: 10px;
 	border-right: 1px solid #ddd;
 	box-sizing: border-box;
@@ -67,7 +67,7 @@ postlist control
 */
 
 .postlist-panel {
-	padding: 20px;
+	padding: 15px 20px;
 	border-top: 1px solid #ddd;
 	border-right: 1px solid #ddd;
 	border-left: 1px solid #ddd;

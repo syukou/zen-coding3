@@ -180,12 +180,12 @@ more
 .postlist-more-list li a {
 	position: relative;
 	display: block;
-	width: 30px;
-	height: 30px;
+	width: 35px;
+	height: 35px;
 	border: 1px solid #ddd;
 	border-radius: 3px;
 	color: #484848;
-	font-size: 11px;
+	font-size: 13px;
 	text-align: center;
 	box-sizing: border-box;
 	-webkit-transition: all 0.35s ease;
