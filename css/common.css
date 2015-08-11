@@ -19,6 +19,11 @@
 	margin: 0 auto;
 }
 
+.post-inner {
+	width: 940px;
+	margin: 0 auto;
+}
+
 .main {
 	margin: 100px auto;
 }
