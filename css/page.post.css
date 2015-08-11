@@ -37,6 +37,7 @@ Side and Main
 }
 
 .sidecat {
+	margin: 0 0 35px;
 	padding: 5px 10px;
 	border: 1px solid #ddd;
 }
@@ -70,6 +71,66 @@ Side and Main
 
 .sidecat li a:hover:after {
 	background-position: right -509px;
+}
+
+/*
+///////////////////////////////////////
+SidePosts
+///////////////////////////////////////
+*/
+
+.sidepickup {
+	margin: 0 0 40px 0;
+}
+
+.sidepickup__head {
+	font-size: 18px;
+	font-family: "Arapey",serif;
+	font-style: italic;
+	font-weight: normal;
+	text-align: center;
+	margin: 0 0 20px 0;
+	letter-spacing: 1px;
+}
+
+.sidepickup__post {
+	position: relative;
+}
+
+.sidepickup__post + .sidepickup__post {
+	margin-top: 20px;
+}
+
+.sidepickup__title {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	color: #ffffff;
+	line-height: 1.5;
+	z-index: 5;
+}
+
+.sidepickup__mask {
+	width: 100%;
+	height: 100px;
+	background: url(../img/sidepost_mask.png) left bottom no-repeat;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	opacity: 1;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+.siderecent__head {
+	font-size: 18px;
+	font-family: "Arapey",serif;
+	font-style: italic;
+	font-weight: normal;
+	text-align: center;
+	margin: 0 0 20px 0;
+	letter-spacing: 1px;
 }
 
 /*
