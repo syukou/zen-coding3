@@ -15,7 +15,7 @@ Side and Main
 	width: 765px;
 }
 
-.side {
+.cm-sidearea {
 	float: left;
 	width: 259px;
 	height: 773px;
@@ -24,23 +24,23 @@ Side and Main
 	box-sizing: border-box;
 }
 
-.side__cat {
+.sidecat {
 	padding: 5px 10px;
 	border: 1px solid #ddd;
 }
 
-.side__cat li + li {
+.sidecat li + li {
 	border-top: 1px dotted #ddd;
 }
 
-.side__cat li a {
+.sidecat li a {
 	position: relative;
 	display: block;
 	padding: 15px 10px;
 	color: #1a1a1a;
 }
 
-.side__cat li a:after {
+.sidecat li a:after {
 	content: "";
 	position: absolute;
 	right: 5px;
@@ -52,11 +52,11 @@ Side and Main
 	background-repeat: no-repeat;
 }
 
-.side__cat li a:hover {
+.sidecat li a:hover {
 	color: #ff0000;
 }
 
-.side__cat li a:hover:after {
+.sidecat li a:hover:after {
 	background-position: right -509px;
 }
 
