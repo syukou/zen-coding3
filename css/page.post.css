@@ -23,7 +23,6 @@ Side and Main
 	float: left;
 	width: 680px;
 	min-height: 342px;
-	padding: 20px 40px;
 	border-left: 1px solid #ddd;
 	border-right: 1px solid #ddd;
 	box-sizing: border-box;
@@ -160,6 +159,11 @@ SidePosts
 Post
 ///////////////////////////////////////
 */
+
+.post {
+	padding: 20px 40px;
+}
+
 .post__head {
 	font-family: "Times New Roman","游明朝",YuMincho,"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","メイリオ",Meiryo,serif;
 	font-size: 23px;
@@ -175,7 +179,7 @@ Post
 }
 
 .post__body {
-	margin: 30px 0 55px;
+	margin: 30px 0 0;
 	color: #333333;
 	font-size: 14px;
 	line-height: 1.9;
@@ -331,4 +335,71 @@ Post
 	left: 18px;
 	color: #000000;
 	font-size: 50px;
+}
+
+/*
+///////////////////////////////////////
+Related Post
+///////////////////////////////////////
+*/
+
+.related {
+	padding: 0 40px 45px;
+}
+
+.related__head {
+	font-family: "Arapey",serif;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: normal;
+	margin: 0 0 15px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.related__block {
+	float: left;
+	width: 50%;
+	margin-top: 20px;
+}
+
+.related__block a {
+	display: block;
+}
+
+.related__block a:hover .related__date,
+.related__block a:hover .related__title {
+	color: #ff0000;
+}
+
+.related__thum + .related__info {
+	margin-top: 15px;
+}
+
+.related__date {
+	color: #111111;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal;
+	text-align: center;
+	-webkit-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	transition: all 0.75s ease;
+}
+
+.related__title {
+	color: #111111;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 1.5;
+	text-align: center;
+	-webkit-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	transition: all 0.75s ease;
+}
+
+.related__date + .related__title {
+	margin-top: 10px;
 }
