@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .main {
-	margin: 30px auto 40px;
+	margin: 30px auto 70px;
 }
 
 .post-inner {
@@ -23,7 +23,7 @@ Side and Main
 	float: left;
 	width: 680px;
 	min-height: 342px;
-	padding: 20px;
+	padding: 20px 40px;
 	border-left: 1px solid #ddd;
 	border-right: 1px solid #ddd;
 	box-sizing: border-box;
@@ -80,7 +80,7 @@ SidePosts
 */
 
 .sidepickup {
-	margin: 0 0 40px 0;
+	margin: 0 0 45px 0;
 }
 
 .sidepickup__head {
@@ -133,6 +133,28 @@ SidePosts
 	letter-spacing: 1px;
 }
 
+.siderecent__list li + li {
+	margin-top: 20px;
+}
+
+.siderecent__list li a {
+	display: table;
+}
+
+.siderecent__thum {
+	display: table-cell;
+	width: 80px;
+	height: 60px;
+}
+
+.siderecent__excerpt {
+	display: table-cell;
+	padding-left: 10px;
+	font-size: 13px;
+	line-height: 1.5;
+	vertical-align: middle;
+}
+
 /*
 ///////////////////////////////////////
 Post
@@ -162,6 +184,12 @@ Post
 
 .post__body p {
 	margin-bottom: 30px;
+}
+
+.post__body p img {
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
 }
 
 .post__body img {
