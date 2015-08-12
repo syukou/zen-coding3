@@ -123,6 +123,104 @@ Section
 
 /*
 ///////////////////////////////////////
+ pickupSocialList
+///////////////////////////////////////
+*/
+.pickupSocial {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 210px;
+	height: 28px;
+	margin: auto;
+	z-index: 10;
+	opacity: 0;
+	color: #fff;
+	font-size: 14px;
+	-webkit-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	transition: all 0.75s ease;
+}
+
+.pickupSocial__list {
+	display: table;
+	float: left;
+	z-index: 30;
+}
+
+.pickupSocial__list + .pickupSocial__list {
+	margin-left: 15px;
+}
+
+.pickup li a:hover .pickupSocial__icon {
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	opacity: 1;
+}
+
+.pickup li a:hover .pickupSocial {
+	opacity: 1;
+}
+
+
+.pickup li a:hover .postlist__info--mask {
+	opacity: 1;
+}
+
+.pickupSocial__icon {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	transition: all 0.75s ease;
+	-webkit-transform: rotateY(-315deg);
+	transform: rotateY(-315deg);
+	opacity: 0;
+}
+
+.pickupSocial__list-facebook,
+.pickupSocial__list-twitter,
+.pickupSocial__list-hatena {
+	display: table-cell;
+	float: left;
+	width: 28px;
+	height: 28px;
+	padding-right: 5px;
+	-webkit-transform: rotateY(-215deg);
+	transform: rotateY(-215deg);
+	opacity: 0;
+	-webkit-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	transition: all 0.75s ease;
+}
+
+.pickupSocial__list-facebook {
+	background: url(../img/icon/icon_facebook.svg) no-repeat;
+	background-size: 28px 28px;
+}
+
+.pickupSocial__list-twitter {
+	background: url(../img/icon/icon_twitter.svg) no-repeat;
+	background-size: 28px 28px;
+}
+
+.pickupSocial__list-hatena {
+	background: url(../img/icon/icon_google.svg) no-repeat;
+	background-size: 28px 28px;
+}
+
+.pickupSocial__list-number {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/*
+///////////////////////////////////////
 more
 ///////////////////////////////////////
 */

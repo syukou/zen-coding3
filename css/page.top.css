@@ -21,25 +21,57 @@ Pickup
 	border-bottom: 1px solid #ddd;
 }
 
-.pickup__lists {
+.pickup {
 	border-right: 1px solid #ddd;
 }
 
-.pickup__lists li {
+.pickup li {
 	float: left;
-	width: 33.333%;
+	width: 366px;
 	border-left: 1px solid #ddd;
 	box-sizing: border-box;
 }
 
-.pickup__lists li a {
+.pickup li a {
 	display: block;
 	padding: 30px 15px;
 }
 
-.pickup__lists li img {
+.pickup li a:hover .pickup__mask {
+	opacity: 0;
+}
+
+.pickup__thum img {
 	width: 100%;
 	height: auto;
+}
+
+.pickup__block {
+	position: relative;
+}
+
+.pickup__title {
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.5;
+	z-index: 5;
+}
+
+.pickup__mask {
+	width: 100%;
+	height: 130px;
+	background: url(../img/top_pickup_mask.png) left bottom no-repeat;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	opacity: 1;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
 }
 
 /*
