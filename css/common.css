@@ -65,7 +65,7 @@ header
 	text-indent: -9999px;
 }
 
-.visual .visual__carousel .faq {
+.visual .visual__carousel .top {
 	height: 400px;
 	background: url(../img/kv/kv_top_01.jpg) no-repeat scroll 0% 0% transparent;
 	background-position: bottom;
@@ -101,8 +101,8 @@ header
 	text-indent: -9999px;
 }
 
-.undervisual .undervisual__carousel .faq {
-	height: 300px;
+.undervisual .undervisual__carousel .under {
+	height: 250px;
 	background: url(../img/kv/kv_top_01.jpg) no-repeat scroll 0% 0% transparent;
 	background-position: bottom;
 	background-size: 100%;
@@ -112,7 +112,7 @@ header
 	position: relative;
 	z-index: 5;
 	top: 0px;
-	margin-top: 300px;
+	margin-top: 250px;
 	background-color: #ffffff;
 }
 
